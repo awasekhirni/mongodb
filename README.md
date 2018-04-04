@@ -6,6 +6,9 @@ sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.6\bin\mongod
 net start MongoDB
 net stop MongoDB
 
+mongod --dbpath "C:\Program Files\MongoDB\Server\3.4\bin\data" --port 27017 --logpath "C:\Program Files\MongoDB\Server\3.4\mongo.log
+
+
 MongoDB Client
 RoboMongo
 NoSQLBooster for MongoDB
